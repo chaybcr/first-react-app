@@ -23,7 +23,8 @@ const Dummy_Expenses = [
     date: new Date(2021, 5, 12),
   },
 ]
-const App =() => {
+const App =(props) => {
+  console.log(props.appConfig)
  
 const [expenses,setExpenses] = useState(Dummy_Expenses);
   const addExpenseHandler = (expense) =>{
