@@ -5,7 +5,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 const Dummy_Expenses = [
   {
     id: 'e1',
-    title: 'Toilet Paper',
+    title: 'Accessories',
     amount: 94.12,
     date: new Date(2020, 7, 14),
   },
